@@ -1,0 +1,95 @@
+header{
+    background-color: #76D7C4;
+    color: #229954;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+
+#tituloP{
+    text-align:center;
+}
+
+#imagenLogo{
+    margin: 10px;
+}
+
+#footer {
+    text-align:center;
+    background-color: #76D7C4;
+    color: #229954 ;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formulario{
+    background-color:#76D7C4 ;
+    border: 5px solid #229954 ;
+    border-radius: 10px; 
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    margin-top: 50px;
+    margin-left:300px ;
+    margin-right: 300px;
+}
+
+#letraF{
+    color:#148F77;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.ingresar{
+    border: 3px solid #0AA286  ;
+    border-radius: 5px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.botones{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 5px 5px;
+    margin-top: 20px;
+    background-color: #229954;
+    border: 3px solid white;
+    border-radius: 10px; 
+    color: white;
+    padding: 5px;
+}
+
+#btnresultado{
+    background-color:#76D7C4 ;
+    border: 5px solid white; ;
+    border-radius: 10px; 
+    padding: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input[type="range"]{
+    width: 300px;
+    height: 30px;
+    -webkit-appearance: none;
+    border-radius: 15px; 
+    background-image: linear-gradient(to right, blue, green, yellow, red);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    height: 30px;
+    width: 10px;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    margin-top: -8px;
+    box-shadow: 1px 1px 1px black, 0px 0px 1px black; 
+}
+
+  
