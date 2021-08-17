@@ -21,6 +21,7 @@ function capturar(){
     console.log(Altura);
     console.log(capturar);
     Datos(Genero, Edad, Peso, Altura);
+    console.log(capturar);
     guardarDatos();
 }
 
@@ -38,7 +39,6 @@ let calculo = 0;
         resultado1.innerHTML = `<h2 style="color: blue">Su Masa Corporal es: ${Masa}</h2>`;
         resultado2condicion.innerHTML = `<h3 style="color: blue">Esta por debajo del peso</h3>`;
         inputR.setAttribute('value', Masa);
-        // respuestaC.setAttribute("btnresultado")
         calculo = 1;
         }else if (Masa >= 18.5 && Masa <= 24.9) {
             console.log('opcion 2');
@@ -47,7 +47,6 @@ let calculo = 0;
         resultado1.innerHTML = `<h2 style="color: #0191F4">Su Masa Corporal es: ${Masa}</h2>`;
         resultado2condicion.innerHTML = `<h3 style="color:  #0191F4">Esta saludable</h3>`;
         inputR.setAttribute('value', Masa);
-        // respuestaC.setAttribute("btnresultado")
         calculo = 2;
         }else if (Masa >= 25.0 && Masa <= 29.9){
             console.log('opcion 3');
@@ -56,7 +55,6 @@ let calculo = 0;
         resultado1.innerHTML = `<h2 style="color:  yellow">Su Masa Corporal es: ${Masa}</h2>`;
         resultado2condicion.innerHTML = `<h3 style="color: yellow">Esta con sobrePeso</h3>`;
         inputR.setAttribute('value', Masa);
-        // respuestaC.setAttribute("btnresultado")
         calculo = 3;
         }else if (Masa >= 30.0 && Masa <= 39.9){
             console.log('opcion 4');
@@ -65,7 +63,6 @@ let calculo = 0;
         resultado1.innerHTML = `<h2 style="color:  orange">Su Masa Corporal es: ${Masa}</h2>`;
         resultado2condicion.innerHTML = `<h3 style="color: orange">Esta obeso</h3>`;
         inputR.setAttribute('value', Masa);
-        // respuestaC.setAttribute("btnresultado")
         calculo = 4;
         }else if (Masa > 40){
             console.log('opcion 5');
@@ -74,7 +71,6 @@ let calculo = 0;
         resultado1.innerHTML = `<h2 style="color: red">Su Masa Corporal es: ${Masa}</h2>`;
         resultado2condicion.innerHTML = `<h3 style="color: red">Su obesidad es extrema o de alto riesgo</h3>`;
         inputR.setAttribute('value', Masa);
-        // respuestaC.setAttribute("btnresultado")
         calculo = 5;   
         }
         datos.push({
@@ -102,7 +98,7 @@ let chart = new Chart(grafica1,{
         [
             {
             label:"Estadisticas Masa Corporal",
-            data:[2,4,2,6,1],
+            data:[4,7,1,2,1],
             backgroundColor:'rgb(230, 74, 25)',
             borderColor:'rgb(30, 132, 73)',
             }

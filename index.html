@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,23 +40,20 @@
             <br>
             <p>Peso(Kg) <input id="Peso" class="ingresar" type="text" name="Peso" placeholder="Ingrese su peso" maxlength="4" required></p>
             <br>
-            <p>Altura(Cm) <input id="Altura" class="ingresar" type="text" name="Altura" placeholder="Ingrese su altura" maxlength="4" required></p>
-            <br>
+            <p>Altura(M) <input id="Altura" class="ingresar" type="text" name="Altura" placeholder="Ingrese su altura" maxlength="4" required></p>
              </div>
             <button type="submit" id="botonC" class="botones">Calcular IMC</button>
-            <input class="botones" type="reset" value="Borrar datos">
-           
+            <!-- <input class="botones" type="reset" value="Borrar datos"> -->
         </form>
 
         <div id="btnresultado"> 
-            <h2 id="resultado1"> </h2><!-- Muestra lo de la masa corporal con el resultado de la operacion -->
+            <h2 id="resultado1"><br></h2><!-- Muestra lo de la masa corporal con el resultado de la operacion -->
             <br>
-             <input id="inputR" type="range" min="0" max="50" disabled>
-             <br>
-           <h3 id="resultado2condicion"> </h3> <!-- muestra el tipo -->
+            <input id="inputR" type="range" min="0" max="50" disabled>
+            <br> <br>
+           
+            <h3 id="resultado2condicion"><br></h3> <!-- muestra el tipo -->
         </div>
-        <br>
-        <br>
         <br>
         <canvas id="grafica" width="400" height="300" ></canvas>
     </main>
@@ -73,5 +70,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <script src="script.js" type="module"></script>
     <script src="data/data.js" type="module"></script>
+
 </body>
 </html>
